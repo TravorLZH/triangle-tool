@@ -1,6 +1,7 @@
 /**
  * @file	area.js
  * @brief	Functions for calculating area of an triangle
+ * @author	Travor Liu	<travor_lzh@outlook.com>
  */
 
 function area(base,height){
