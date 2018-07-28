@@ -2,27 +2,41 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="css/style.css"/>
 		<title>Triangle Tool</title>
 		<script src="js/area.js"></script>
 		<script src="js/index.js"></script>
 	</head>
 	<body>
-		<h1>Calculate triangle area</h1>
-		<hr/>
-		<section>
-			<p>Normal - Base x Height</p>
-			<input id="base" type="number" placeholder="Base"/>
-			<input id="height" type="number" placeholder="Height"/>
-			<button onclick="do_normal();">Calculate</button>
-			<label id="normalResult">Result</label>
-		</section>
-		<section>
-			<p>Complicated Algorithm - By using 3 sides</p>
-			<input id="sideA" type="number" placeholder="Side #1"/>
-			<input id="sideB" type="number" placeholder="Side #2"/>
-			<input id="sideC" type="number" placeholder="Side #3"/>
-			<button onclick="do_heron();">Calculate</button>
-			<label id="heronResult">Result</label>
-		</section>
+		<header>
+			<h1>Triangle Tool</h1>
+			<p>Calculate triangle area</p>
+		</header>
+		<table>
+			<td style="width: 30%;">
+				<p>Travor's Algorithm Projects</p>
+				<ul>
+					<li><a href="http://travorlzh.github.io/triangle-tool">Triangle Tool</a></li>
+					<li><a href="http://travorlzh.github.io/factorization-tool">Factorization Tool</a></li>
+				</ul>
+			</td>
+			<td>
+				<section>
+					<p>Normal - Base x Height</p>
+					<input id="base" type="number" placeholder="Base"/>
+					<input id="height" type="number" placeholder="Height"/>
+					<button onclick="do_normal();">Calculate</button>
+					<label id="normalResult">Result</label>
+				</section>
+				<section>
+					<p>Complicated Algorithm - By using 3 sides</p>
+					<input id="sideA" type="number" placeholder="Side #1"/>
+					<input id="sideB" type="number" placeholder="Side #2"/>
+					<input id="sideC" type="number" placeholder="Side #3"/>
+					<button onclick="do_heron();">Calculate</button>
+					<label id="heronResult">Result</label>
+				</section>
+			</td>
+		</table>
 	</body>
 </html>

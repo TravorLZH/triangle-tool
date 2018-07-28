@@ -1,0 +1,14 @@
+*{
+	font-family: Arial;
+}
+body{
+	margin: 0px;
+}
+header{
+	background-color: #F0F0F0;
+	text-align: center;
+	padding: 1px;
+}
+table{
+	margin: 20px;
+}
